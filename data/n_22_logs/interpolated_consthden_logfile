@@ -1,0 +1,698 @@
+n_22_interpolated_consthden/fort.11 Inci 1215.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.12 Inci 4860.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.13 TOTL 1215.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.14 Inwd 1215.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.15 H  1 1215.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.16 Inwd 1215.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.17 H  1 1215.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.18 Inwd 1215.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.19 H  1 1025.73A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.20 Inwd 1025.73A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.21 H  1 972.543A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.22 Inwd 972.543A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.23 H  1 949.749A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.24 Inwd 949.749A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.25 H  1 6562.85A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.26 Inwd 6562.85A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.27 H  1 4861.36A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.28 Inwd 4861.36A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.29 H  1 4340.49A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.30 Inwd 4340.49A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.31 H  1 4101.76A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.32 Inwd 4101.76A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.33 H  1 3970.09A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.34 Inwd 3970.09A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.35 H  1 3889.07A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.36 Inwd 3889.07A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.37 H  1 1.87511m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.38 Inwd 1.87511m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.39 H  1 1.28181m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.40 Inwd 1.28181m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.41 H  1 1.09381m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.42 Inwd 1.09381m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.43 H  1 1.00494m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.44 Inwd 1.00494m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.45 H  1 9545.99A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.46 Inwd 9545.99A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.47 H  1 9229.03A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.48 Inwd 9229.03A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.49 H  1 2.16553m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.50 Inwd 2.16553m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.51 He 2 1640.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.52 Inwd 1640.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.53 He 2 1215.23A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.54 Inwd 1215.23A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.55 He 2 1085.03A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.56 Inwd 1085.03A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.57 He 2 1025.35A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.58 Inwd 1025.35A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.59 He 2 992.439A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.60 Inwd 992.439A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.61 He 2 972.186A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.62 Inwd 972.186A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.63 He 2 4686.01A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.64 Inwd 4686.01A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.65 He 2 3203.30A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.66 Inwd 3203.30A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.67 He 2 2733.46A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.68 Inwd 2733.46A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.69 He 2 1.01242m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.70 Inwd 1.01242m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.71 He 2 6560.44A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.72 Inwd 6560.44A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.73 He 2 5411.80A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.74 Inwd 5411.80A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.75 He 2 4859.57A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.76 Inwd 4859.57A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.77 He 2 4541.82A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.78 Inwd 4541.82A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.79 He 2 4338.89A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.80 Inwd 4338.89A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.81 He 2 4200.05A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.82 Inwd 4200.05A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.83 He 2 4100.25A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.84 Inwd 4100.25A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.85 He 2 4025.81A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.86 Inwd 4025.81A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.87 He 2 3968.64A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.88 Inwd 3968.64A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.89 TOTL 1.08299m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.90 He 1 1.08291m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.91 Inwd 1.08291m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.92 He 1 1.08303m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.93 Inwd 1.08303m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.94 He 1 1.08303m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.95 Inwd 1.08303m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.96 He 1 3888.63A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.97 Inwd 3888.63A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.98 He 1 2.05813m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.99 Inwd 2.05813m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.100 He 1 5015.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.101 Inwd 5015.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.102 He 1 7065.18A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.103 Inwd 7065.18A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.104 He 1 5875.61A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.105 Inwd 5875.61A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.106 He 1 4713.02A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.107 Inwd 4713.02A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.108 He 1 4471.47A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.109 Inwd 4471.47A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.110 He 1 4120.81A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.111 Inwd 4120.81A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.112 He 1 7281.35A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.113 Inwd 7281.35A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.114 He 1 6678.15A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.115 Inwd 6678.15A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.116 He 1 5047.64A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.117 Inwd 5047.64A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.118 He 1 4921.93A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.119 Inwd 4921.93A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.120 He 1 4437.55A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.121 Inwd 4437.55A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.122 He 1 4387.93A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.123 Inwd 4387.93A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.124 C  1 1656.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.125 Inwd 1656.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.126 TOTL 2326.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.127 C  2 2325.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.128 Inwd 2325.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.129 C  2 2324.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.130 Inwd 2324.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.131 C  2 2329.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.132 Inwd 2329.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.133 C  2 2328.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.134 Inwd 2328.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.135 C  2 2327.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.136 Inwd 2327.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.137 C  2 1335.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.138 Inwd 1335.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.139 C  3 977.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.140 Inwd 977.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.141 TOTL 1909.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.142 C  3 1910.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.143 Inwd 1910.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.144 C  3 1176.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.145 Inwd 1176.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.146 TOTL 1549.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.147 Inwd 1549.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.148 C  4 1551.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.149 Inwd 1551.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.150 C  4 1548.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.151 Inwd 1548.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.152 N  1 1200.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.153 Inwd 1200.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.154 N  2 2141.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.155 Inwd 2141.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.156 N  2 1085.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.157 Inwd 1085.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.158 TOTL 1750.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.159 N  3 1749.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.160 Inwd 1749.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.161 N  3 1747.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.162 Inwd 1747.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.163 N  3 1754.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.164 Inwd 1754.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.165 N  3 1752.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.166 Inwd 1752.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.167 N  3 1751.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.168 Inwd 1751.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.169 N  3 991.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.170 Inwd 991.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.171 TOTL 1486.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.172 Inwd 1486.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.173 N  4 1486.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.174 Inwd 1486.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.175 N  4 765.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.176 Inwd 765.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.177 TOTL 1240.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.178 Inwd 1240.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.179 N  5 1243.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.180 Inwd 1243.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.181 N  5 1239.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.182 Inwd 1239.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.183 6lev 8446.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.184 6lev 1304.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.185 TOTL 1665.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.186 O  3 1661.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.187 Inwd 1661.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.188 O  3 1666.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.189 Inwd 1666.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.190 O  3 835.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.191 Inwd 835.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.192 TOTL 1402.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.193 O  4 1400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.194 Inwd 1400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.195 O  4 1397.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.196 Inwd 1397.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.197 O  4 1407.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.198 Inwd 1407.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.199 O  4 1405.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.200 Inwd 1405.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.201 O  4 1401.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.202 Inwd 1401.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.203 O  4 789.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.204 Inwd 789.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.205 O  5 630.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.206 Inwd 630.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.207 TOTL 1218.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.208 Inwd 1218.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.209 O  5 1218.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.210 Inwd 1218.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.211 TOTL 1035.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.212 Inwd 1035.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.213 O  6 1031.93A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.214 Inwd 1031.93A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.215 O  6 1037.62A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.216 Inwd 1037.62A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.217 Ne 5 1141.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.218 TOTL 774.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.219 Inwd 774.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.220 Ne 8 770.404A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.221 Inwd 770.404A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.222 Ne 8 780.324A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.223 Inwd 780.324A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.224 Na 1 5891.94A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.225 Inwd 5891.94A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.226 Mg 1 2853.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.227 Inwd 2853.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.228 TOTL 2798.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.229 Inwd 2798.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.230 Mg 2 2795.53A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.231 Inwd 2795.53A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.232 Mg 2 2802.71A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.233 Inwd 2802.71A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.234 TOTL 615.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.235 Mg10 609.793A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.236 Inwd 609.793A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.237 Mg10 624.941A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.238 Inwd 624.941A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.239 totl 2665.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.240 Al 2 2670.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.241 Inwd 2670.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.242 TOTL 1860.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.243 Inwd 1860.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.244 Al 3 1855.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.245 Inwd 1855.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.246 Al 3 1863.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.247 Inwd 1863.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.248 TOTL 2335.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.249 Si 2 2334.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.250 Inwd 2334.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.251 Si 2 2329.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.252 Inwd 2329.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.253 Si 2 2350.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.254 Inwd 2350.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.255 Si 2 2344.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.256 Inwd 2344.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.257 Si 2 2336.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.258 Inwd 2336.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.259 Si 2 1813.99A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.260 Inwd 1813.99A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.261 Si 2 1531.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.262 Inwd 1531.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.263 Si 2 1307.66A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.264 Inwd 1307.66A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.265 Si 2 1263.32A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.266 Inwd 1263.32A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.267 Si 3 1207.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.268 Inwd 1207.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.269 TOTL 1888.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.270 Si 3 1892.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.271 Inwd 1892.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.272 TOTL 1397.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.273 Inwd 1397.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.274 Si 4 1403.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.275 Inwd 1403.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.276 Si 4 1394.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.277 Inwd 1394.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.278 S  2 1256.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.279 Inwd 1256.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.280 S  3 1720.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.281 Inwd 1720.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.282 S  3 1197.56A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.283 Inwd 1197.56A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.284 TOTL 1406.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.285 Inwd 1406.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.286 S  4 1405.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.287 Inwd 1405.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.288 S  4 1398.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.289 Inwd 1398.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.290 S  4 1424.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.291 Inwd 1424.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.292 S  4 1417.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.293 Inwd 1417.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.294 S  4 1406.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.295 Inwd 1406.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.296 TOTL 1198.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.297 Inwd 1198.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.298 S  5 1198.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.299 Inwd 1198.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.300 S  5 786.473A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.301 Inwd 786.473A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.302 S  6 944.524A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.303 Inwd 944.524A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.304 S  6 933.380A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.305 Inwd 933.380A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.306 Ca2K 3934.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.307 Ca2H 3969.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.308 Ca2X 8498.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.309 Ca2Y 8542.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.310 Ca2Z 8662.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.311 Fe 2 1500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.312 Inwd 1500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.313 Fe 2 1.15000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.314 Inwd 1.15000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.315 Fe 2 2500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.316 Inwd 2500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.317 Fe 2 2300.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.318 Inwd 2300.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.319 Fe 2 8900.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.320 Inwd 8900.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.321 Fe 2 1786.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.322 Inwd 1786.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.323 Fe 3 1125.79A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.324 Inwd 1125.79A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.325 FeKa 1.78000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.326 nFnu 399.153A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.327 nInu 399.153A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.328 InwT 399.153A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.329 InwC 399.153A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.330 InwD 399.153A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.331 nFnu 496.874A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.332 nInu 496.874A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.333 InwT 496.874A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.334 InwC 496.874A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.335 InwD 496.874A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.336 nFnu 511.948A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.337 nInu 511.948A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.338 InwT 511.948A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.339 InwC 511.948A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.340 InwD 511.948A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.341 nFnu 608.160A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.342 nInu 608.160A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.343 InwT 608.160A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.344 InwC 608.160A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.345 InwD 608.160A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.346 nFnu 575.146A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.347 nInu 575.146A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.348 InwT 575.146A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.349 InwC 575.146A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.350 InwD 575.146A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.351 nFnu 701.514A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.352 nInu 701.514A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.353 InwT 701.514A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.354 InwC 701.514A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.355 InwD 701.514A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.356 nFnu 760.023A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.357 nInu 760.023A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.358 InwT 760.023A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.359 InwC 760.023A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.360 InwD 760.023A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.361 nFnu 800.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.362 nInu 800.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.363 InwT 800.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.364 InwC 800.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.365 InwD 800.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.366 nFnu 840.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.367 nInu 840.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.368 InwT 840.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.369 InwC 840.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.370 InwD 840.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.371 nFnu 880.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.372 nInu 880.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.373 InwT 880.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.374 InwC 880.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.375 InwD 880.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.376 nFnu 897.800A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.377 nInu 897.800A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.378 InwT 897.800A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.379 InwC 897.800A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.380 InwD 897.800A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.381 nFnu 910.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.382 nInu 910.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.383 InwT 910.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.384 InwC 910.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.385 InwD 910.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.386 nFnu 913.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.387 nInu 913.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.388 InwT 913.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.389 InwC 913.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.390 InwD 913.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.391 nFnu 925.144A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.392 nInu 925.144A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.393 InwT 925.144A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.394 InwC 925.144A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.395 InwD 925.144A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.396 nFnu 960.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.397 nInu 960.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.398 InwT 960.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.399 InwC 960.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.400 InwD 960.000A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.401 nFnu 1000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.402 nInu 1000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.403 InwT 1000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.404 InwC 1000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.405 InwD 1000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.406 nFnu 1035.92A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.407 nInu 1035.92A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.408 InwT 1035.92A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.409 InwC 1035.92A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.410 InwD 1035.92A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.411 nFnu 1064.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.412 nInu 1064.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.413 InwT 1064.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.414 InwC 1064.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.415 InwD 1064.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.416 nFnu 1073.86A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.417 nInu 1073.86A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.418 InwT 1073.86A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.419 InwC 1073.86A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.420 InwD 1073.86A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.421 nFnu 1103.23A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.422 nInu 1103.23A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.423 InwT 1103.23A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.424 InwC 1103.23A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.425 InwD 1103.23A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.426 nFnu 1113.22A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.427 nInu 1113.22A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.428 InwT 1113.22A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.429 InwC 1113.22A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.430 InwD 1113.22A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.431 nFnu 1143.64A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.432 nInu 1143.64A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.433 InwT 1143.64A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.434 InwC 1143.64A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.435 InwD 1143.64A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.436 nFnu 1175.06A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.437 nInu 1175.06A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.438 InwT 1175.06A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.439 InwC 1175.06A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.440 InwD 1175.06A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.441 nFnu 1196.33A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.442 nInu 1196.33A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.443 InwT 1196.33A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.444 InwC 1196.33A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.445 InwD 1196.33A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.446 nFnu 1218.08A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.447 nInu 1218.08A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.448 InwT 1218.08A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.449 InwC 1218.08A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.450 InwD 1218.08A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.451 nFnu 1240.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.452 nInu 1240.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.453 InwT 1240.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.454 InwC 1240.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.455 InwD 1240.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.456 nFnu 1262.79A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.457 nInu 1262.79A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.458 InwT 1262.79A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.459 InwC 1262.79A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.460 InwD 1262.79A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.461 nFnu 1297.29A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.462 nInu 1297.29A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.463 InwT 1297.29A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.464 InwC 1297.29A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.465 InwD 1297.29A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.466 nFnu 1324.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.467 nInu 1324.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.468 InwT 1324.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.469 InwC 1324.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.470 InwD 1324.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.471 nFnu 1356.96A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.472 nInu 1356.96A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.473 InwT 1356.96A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.474 InwC 1356.96A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.475 InwD 1356.96A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.476 nFnu 1410.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.477 nInu 1410.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.478 InwT 1410.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.479 InwC 1410.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.480 InwD 1410.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.481 nFnu 1458.33A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.482 nInu 1458.33A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.483 InwT 1458.33A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.484 InwC 1458.33A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.485 InwD 1458.33A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.486 nFnu 1585.12A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.487 nInu 1585.12A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.488 InwT 1585.12A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.489 InwC 1585.12A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.490 InwD 1585.12A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.491 nFnu 1650.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.492 nInu 1650.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.493 InwT 1650.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.494 InwC 1650.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.495 InwD 1650.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.496 nFnu 1793.44A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.497 nInu 1793.44A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.498 InwT 1793.44A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.499 InwC 1793.44A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.500 InwD 1793.44A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.501 nFnu 1900.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.502 nInu 1900.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.503 InwT 1900.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.504 InwC 1900.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.505 InwD 1900.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.506 nFnu 2052.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.507 nInu 2052.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.508 InwT 2052.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.509 InwC 2052.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.510 InwD 2052.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.511 nFnu 2071.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.512 nInu 2071.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.513 InwT 2071.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.514 InwC 2071.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.515 InwD 2071.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.516 nFnu 2200.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.517 nInu 2200.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.518 InwT 2200.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.519 InwC 2200.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.520 InwD 2200.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.521 nFnu 2392.03A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.522 nInu 2392.03A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.523 InwT 2392.03A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.524 InwC 2392.03A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.525 InwD 2392.03A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.526 nFnu 2430.05A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.527 nInu 2430.05A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.528 InwT 2430.05A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.529 InwC 2430.05A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.530 InwD 2430.05A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.531 nFnu 2700.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.532 nInu 2700.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.533 InwT 2700.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.534 InwC 2700.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.535 InwD 2700.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.536 nFnu 3300.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.537 nInu 3300.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.538 InwT 3300.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.539 InwC 3300.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.540 InwD 3300.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.541 nFnu 3400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.542 nInu 3400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.543 InwT 3400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.544 InwC 3400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.545 InwD 3400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.546 nFnu 3587.67A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.547 nInu 3587.67A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.548 InwT 3587.67A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.549 InwC 3587.67A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.550 InwD 3587.67A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.551 nFnu 3644.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.552 nInu 3644.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.553 InwT 3644.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.554 InwC 3644.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.555 InwD 3644.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.556 nFnu 3645.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.557 nInu 3645.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.558 InwT 3645.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.559 InwC 3645.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.560 InwD 3645.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.561 nFnu 3648.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.562 nInu 3648.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.563 InwT 3648.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.564 InwC 3648.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.565 InwD 3648.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.566 nFnu 3704.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.567 nInu 3704.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.568 InwT 3704.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.569 InwC 3704.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.570 InwD 3704.34A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.571 nFnu 4400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.572 nInu 4400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.573 InwT 4400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.574 InwC 4400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.575 InwD 4400.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.576 nFnu 4885.36A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.577 nInu 4885.36A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.578 InwT 4885.36A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.579 InwC 4885.36A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.580 InwD 4885.36A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.581 nFnu 5100.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.582 nInu 5100.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.583 InwT 5100.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.584 InwC 5100.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.585 InwD 5100.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.586 nFnu 5600.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.587 nInu 5600.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.588 InwT 5600.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.589 InwC 5600.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.590 InwD 5600.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.591 nFnu 6209.66A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.592 nInu 6209.66A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.593 InwT 6209.66A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.594 InwC 6209.66A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.595 InwD 6209.66A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.596 nFnu 6500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.597 nInu 6500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.598 InwT 6500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.599 InwC 6500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.600 InwD 6500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.601 nFnu 7000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.602 nInu 7000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.603 InwT 7000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.604 InwC 7000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.605 InwD 7000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.606 nFnu 7500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.607 nInu 7500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.608 InwT 7500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.609 InwC 7500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.610 InwD 7500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.611 nFnu 8000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.612 nInu 8000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.613 InwT 8000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.614 InwC 8000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.615 InwD 8000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.616 nFnu 8078.61A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.617 nInu 8078.61A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.618 InwT 8078.61A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.619 InwC 8078.61A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.620 InwD 8078.61A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.621 nFnu 8204.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.622 nInu 8204.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.623 InwT 8204.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.624 InwC 8204.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.625 InwD 8204.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.626 nFnu 8207.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.627 nInu 8207.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.628 InwT 8207.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.629 InwC 8207.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.630 InwD 8207.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.631 nFnu 8210.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.632 nInu 8210.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.633 InwT 8210.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.634 InwC 8210.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.635 InwD 8210.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.636 nFnu 8329.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.637 nInu 8329.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.638 InwT 8329.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.639 InwC 8329.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.640 InwD 8329.68A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.641 nFnu 8500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.642 nInu 8500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.643 InwT 8500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.644 InwC 8500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.645 InwD 8500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.646 nFnu 9000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.647 nInu 9000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.648 InwT 9000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.649 InwC 9000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.650 InwD 9000.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.651 nFnu 9500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.652 nInu 9500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.653 InwT 9500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.654 InwC 9500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.655 InwD 9500.00A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.656 nFnu 10000.0A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.657 nInu 10000.0A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.658 InwT 10000.0A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.659 InwC 10000.0A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.660 InwD 10000.0A  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.661 nFnu 1.05000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.662 nInu 1.05000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.663 InwT 1.05000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.664 InwC 1.05000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.665 InwD 1.05000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.666 nFnu 1.10000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.667 nInu 1.10000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.668 InwT 1.10000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.669 InwC 1.10000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.670 InwD 1.10000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.671 nFnu 1.11867m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.672 nInu 1.11867m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.673 InwT 1.11867m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.674 InwC 1.11867m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.675 InwD 1.11867m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.676 nFnu 1.30000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.677 nInu 1.30000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.678 InwT 1.30000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.679 InwC 1.30000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.680 InwD 1.30000m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.681 nFnu 1.43649m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.682 nInu 1.43649m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.683 InwT 1.43649m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.684 InwC 1.43649m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.685 InwD 1.43649m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.686 nFnu 1.48022m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.687 nInu 1.48022m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.688 InwT 1.48022m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.689 InwC 1.48022m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.690 InwD 1.48022m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.691 nFnu 1.64313m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.692 nInu 1.64313m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.693 InwT 1.64313m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.694 InwC 1.64313m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.695 InwD 1.64313m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.696 nFnu 2.32440m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.697 nInu 2.32440m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.698 InwT 2.32440m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.699 InwC 2.32440m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.700 InwD 2.32440m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.701 nFnu 4.11370m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.702 nInu 4.11370m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.703 InwT 4.11370m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.704 InwC 4.11370m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.705 InwD 4.11370m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.706 nFnu 122.400m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.707 InwT 122.400m  relative to Inci 1215.00A scaled to 1215A.
+n_22_interpolated_consthden/fort.709 InwD 122.400m  relative to Inci 1215.00A scaled to 1215A.

@@ -1,0 +1,235 @@
+The following solutions probably did not converge.
+
+hden = 7.750, phi = 17.000
+───────────────────────────
+ C-This is the last iteration and H  1 Bal(a) optical depth changed by 127.4% (was 1.18e+01). Try another iteration.
+ C-The electron density varied by 36.4% between two zones
+  !Suprathermal collisional ionization of H reached 80.77% of the local H ionization rate.
+  !Charge transfer ionization of H reached 13839.5% of the local H ionization rate.
+  !Photoionization of upper level of Mg II 2798 reached 47.5% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 10.0% of the total O destruction rate.
+  !Destruction of He 2TriS reached 45.6% of the total He0 dest rate at zone 343, 45.6% of that was photoionization.
+  !The largest plasma frequency was 2.25e-08 Ryd = 4.06e+06 micron  The continuum is set to 0 below this.
+  !The largest continuum brightness temperature was 3.635e+04K at 2.244e-08 Ryd.
+  !AGE: Cloud age was not set.  Longest timescale was 2.31e+05 s = 2.67e+00 days.
+  !The ratio of radiation to gas pressure reached 4.17e-01 at zone 209.  Caused by Lyman alpha.
+  !An ionization jump occurred at zone 341, elem Si 3, by 155% from 4.89e-03 to 4.91e-03 to 7.60e-03
+  !An ionization jump occurred at zone 341, elem Fe 3, by 152% from 2.57e-02 to 2.58e-02 to 3.91e-02
+  !The radiation pressure jumped by 193% at zone 209, from 1.91e-04 to 6.70e-05 to 6.79e-05
+
+
+hden = 8.750, phi = 18.000
+───────────────────────────
+ C-This is the last iteration and H  1 Bal(a) optical depth changed by 121.0% (was 1.21e+02). Try another iteration.
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Suprathermal collisional ionization of H reached 75.54% of the local H ionization rate.
+  !Charge transfer ionization of H reached 14862.4% of the local H ionization rate.
+  !Photoionization of upper level of Mg II 2798 reached 91.6% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 10.6% of the total O destruction rate.
+  !Photoionization of upper levels of [O III] reached 62.5% of the total O++ photo rate.
+  !Destruction of He 2TriS reached 34.2% of the total He0 dest rate at zone 329, 34.2% of that was photoionization.
+  !The largest plasma frequency was 7.10e-08 Ryd = 1.28e+06 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 1.73e+04 s = 4.80e+00 hours.
+  !The ratio of radiation to gas pressure reached 4.29e-01 at zone 199.  Caused by Lyman alpha.
+  !The radiation pressure jumped by 177% at zone 199, from 2.06e-03 to 8.15e-04 to 8.29e-04
+  !The electron density varied by 18.3% between two zones
+
+
+hden = 9.500, phi = 18.750
+───────────────────────────
+ C-This is the last iteration and H  1 Ly(a) optical depth changed by     84% (was 1.53e+06). Try another iteration.
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Photoionization of upper levels of [O III] reached 10.5% of the total O++ photo rate.
+  !The largest plasma frequency was 1.68e-07 Ryd = 5.41e+05 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 2.25e+03 s.
+  !The ratio of radiation to gas pressure reached 4.41e-01 at zone 139.  Caused by Lyman alpha.
+  !The radiation pressure jumped by 171% at zone 3, from 8.69e-08 to 3.76e-07 to 1.20e-06
+
+
+hden = 10.000, phi = 19.000
+───────────────────────────
+ C-This is the last iteration and H  1 Bal(a) optical depth changed by 184.5% (was 8.50e+02). Try another iteration.
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Suprathermal collisional ionization of H reached 81.09% of the local H ionization rate.
+  !Charge transfer ionization of H reached 26169.5% of the local H ionization rate.
+  !Photoionization of upper level of Mg II 2798 reached 99.6% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 11.8% of the total O destruction rate.
+  !The largest plasma frequency was 2.99e-07 Ryd = 3.04e+05 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 1.31e+03 s.
+  !The ratio of radiation to gas pressure reached 3.27e-01 at zone 125.  Caused by Lyman alpha.
+  !The radiation pressure jumped by 495% at zone 267, from 4.70e-04 to 1.97e-03 to 3.27e-04
+
+
+hden = 10.250, phi = 19.250
+───────────────────────────
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Suprathermal collisional ionization of H reached 78.81% of the local H ionization rate.
+  !Charge transfer ionization of H reached 28550.0% of the local H ionization rate.
+  !Photoionization of upper level of Mg II 2798 reached 98.5% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 11.6% of the total O destruction rate.
+  !The largest plasma frequency was 3.99e-07 Ryd = 2.28e+05 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 4.31e+02 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 1.59e+04K (gas temp there was 1.41e+04K, zone 127)
+  !The ratio of radiation to gas pressure reached 3.31e-01 at zone 127.  Caused by Lyman alpha.
+  !The radiation pressure jumped by 201% at zone 127, from 3.78e-02 to 1.24e-02 to 1.21e-02
+
+
+hden = 10.500, phi = 19.500
+───────────────────────────
+ C-This is the last iteration and H  1 Ly(a) optical depth changed by     76% (was 5.03e+04). Try another iteration.
+ C-The Lya optical depth scale was overrun and this is the last iteration - Tspin(21 cm) is not valid.
+ C-Another iteration is needed for Tspin(21 cm) to be valid.
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Photoionization of upper levels of [O I] reached 11.7% of the total O destruction rate.
+  !The largest plasma frequency was 5.32e-07 Ryd = 1.71e+05 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 2.15e+02 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 1.65e+04K (gas temp there was 1.43e+04K, zone 127)
+  !The ratio of radiation to gas pressure reached 2.95e-01 at zone 87.  Caused by line number 23, label Level1 C  4 1548A
+  !The radiation pressure jumped by 163% at zone 3, from 8.19e-07 to 3.10e-06 to 9.31e-06
+
+
+hden = 10.750, phi = 19.500
+───────────────────────────
+ C-This is the last iteration and H  1 Bal(a) optical depth changed by 172.5% (was 1.64e+03). Try another iteration.
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Suprathermal collisional ionization of H reached 82.80% of the local H ionization rate.
+  !Charge transfer ionization of H reached 62762.5% of the local H ionization rate.
+  !Photoionization of upper level of Mg II 2798 reached 99.8% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 11.7% of the total O destruction rate.
+  !The largest plasma frequency was 7.09e-07 Ryd = 1.28e+05 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 2.47e+02 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 1.75e+04K (gas temp there was 1.24e+04K, zone 119)
+  !The radiation pressure jumped by 239% at zone 119, from 6.18e-02 to 1.61e-02 to 1.55e-02
+  !The electron density varied by 11.3% between two zones
+
+
+hden = 11.000, phi = 19.750
+───────────────────────────
+ C-This is the last iteration and H  1 Bal(a) optical depth changed by  86.1% (was 1.77e+03). Try another iteration.
+ C-This is the last iteration and H  1 Ly(a) optical depth changed by     56% (was 3.43e+07). Try another iteration.
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Suprathermal collisional ionization of H reached 75.01% of the local H ionization rate.
+  !Charge transfer ionization of H reached 84248.9% of the local H ionization rate.
+  !Photoionization of upper level of Mg II 2798 reached 99.7% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 12.3% of the total O destruction rate.
+  !The largest plasma frequency was 9.46e-07 Ryd = 9.63e+04 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 1.47e+02 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 1.90e+04K (gas temp there was 1.12e+04K, zone 127)
+  !The radiation pressure jumped by 278% at zone 126, from 9.57e-02 to 2.08e-02 to 2.01e-02
+
+
+hden = 11.250, phi = 20.000
+───────────────────────────
+ C-This is the last iteration and H  1 Bal(a) optical depth changed by 107.7% (was 2.03e+03). Try another iteration.
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Suprathermal collisional ionization of H reached 72.04% of the local H ionization rate.
+  !Charge transfer ionization of H reached 78205.0% of the local H ionization rate.
+  !Photoionization of upper level of Mg II 2798 reached 99.8% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 13.3% of the total O destruction rate.
+  !The largest plasma frequency was 1.26e-06 Ryd = 7.22e+04 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 7.34e+01 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 2.07e+04K (gas temp there was 9.99e+03K, zone 135)
+  !The radiation pressure jumped by 320% at zone 135, from 1.42e-01 to 2.63e-02 to 2.59e-02
+
+
+hden = 11.500, phi = 20.250
+───────────────────────────
+ C-This is the last iteration and H  1 Bal(a) optical depth changed by  48.8% (was 2.36e+03). Try another iteration.
+ C-This is the last iteration and H  1 Ly(a) optical depth changed by     65% (was 1.12e+05). Try another iteration.
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Photoionization of upper levels of [O I] reached 14.4% of the total O destruction rate.
+  !The largest plasma frequency was 1.68e-06 Ryd = 5.42e+04 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 2.36e+01 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 2.19e+04K (gas temp there was 9.27e+03K, zone 147)
+  !The radiation pressure jumped by 300% at zone 152, from 1.74e-01 to 3.46e-02 to 3.31e-02
+
+
+hden = 11.500, phi = 20.500
+───────────────────────────
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Photoionization of upper levels of [O I] reached 14.8% of the total O destruction rate.
+  !The largest plasma frequency was 1.68e-06 Ryd = 5.41e+04 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 2.49e+01 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 2.07e+04K (gas temp there was 1.33e+04K, zone 150)
+  !The radiation pressure jumped by 190% at zone 3, from 1.78e-06 to 8.64e-06 to 3.10e-05
+
+
+hden = 11.750, phi = 20.500
+───────────────────────────
+ C-The Lya optical depth scale was overrun and this is the last iteration - Tspin(21 cm) is not valid.
+ C-Another iteration is needed for Tspin(21 cm) to be valid.
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Photoionization of upper level of Mg II 2798 reached 18.4% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 15.3% of the total O destruction rate.
+  !The largest plasma frequency was 2.24e-06 Ryd = 4.06e+04 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 1.38e+01 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 2.24e+04K (gas temp there was 9.55e+03K, zone 149)
+  !The radiation pressure jumped by 188% at zone 3, from 1.58e-06 to 7.48e-06 to 2.66e-05
+  !The temperature varied by 15.0% between two zones
+
+
+hden = 12.000, phi = 20.750
+───────────────────────────
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Photoionization of upper level of Mg II 2798 reached 15.9% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 15.5% of the total O destruction rate.
+  !The largest plasma frequency was 2.99e-06 Ryd = 3.05e+04 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 7.99e+00 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 2.35e+04K (gas temp there was 9.41e+03K, zone 158)
+  !The radiation pressure jumped by 206% at zone 3, from 1.42e-06 to 7.54e-06 to 2.96e-05
+  !The temperature varied by 13.9% between two zones
+
+
+hden = 12.500, phi = 21.250
+───────────────────────────
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Photoionization of upper level of Mg II 2798 reached 24.5% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 13.9% of the total O destruction rate.
+  !The largest plasma frequency was 5.32e-06 Ryd = 1.71e+04 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 2.57e+00 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 2.52e+04K (gas temp there was 9.50e+03K, zone 182)
+  !A temperature discontinuity occurred at zone 200 from 9.83e+03K to 1.28e+04K.
+  !An ionization jump occurred at zone 199, elem Al 5, by 151% from 1.27e-03 to 1.37e-03 to 2.07e-03
+  !An ionization jump occurred at zone 199, elem Si 5, by 152% from 2.14e-03 to 2.24e-03 to 3.40e-03
+  !An ionization jump occurred at zone 199, elem K  5, by 151% from 2.54e-03 to 2.70e-03 to 4.07e-03
+  !An ionization jump occurred at zone 199, elem Sc 6, by 150% from 1.73e-03 to 1.84e-03 to 2.77e-03
+  !An ionization jump occurred at zone 199, elem V  5, by 150% from 2.17e-02 to 2.15e-02 to 3.22e-02
+  !An ionization jump occurred at zone 199, elem Co 5, by 151% from 8.67e-03 to 9.17e-03 to 1.39e-02
+  !An ionization jump occurred at zone 199, elem Co 6, by 151% from 3.36e-03 to 3.62e-03 to 5.46e-03
+  !An ionization jump occurred at zone 199, elem Co 7, by 152% from 1.30e-03 to 1.40e-03 to 2.12e-03
+  !An ionization jump occurred at zone 199, elem Ni 5, by 152% from 7.94e-03 to 8.58e-03 to 1.30e-02
+  !An ionization jump occurred at zone 199, elem Ni 6, by 154% from 3.49e-03 to 3.76e-03 to 5.78e-03
+  !An ionization jump occurred at zone 199, elem Ni 7, by 154% from 1.23e-03 to 1.33e-03 to 2.04e-03
+  !An ionization jump occurred at zone 199, elem Cu 6, by 156% from 3.44e-03 to 3.71e-03 to 5.78e-03
+  !An ionization jump occurred at zone 199, elem Cu 7, by 157% from 1.13e-03 to 1.22e-03 to 1.92e-03
+  !An ionization jump occurred at zone 199, elem Zn 5, by 156% from 8.19e-03 to 8.88e-03 to 1.39e-02
+  !An ionization jump occurred at zone 199, elem Zn 6, by 160% from 3.18e-03 to 3.44e-03 to 5.50e-03
+  !The radiation pressure jumped by 279% at zone 3, from 3.90e-07 to 2.74e-06 to 1.49e-05
+  !The temperature varied by 29.7% between two zones
+
+
+hden = 12.500, phi = 22.000
+───────────────────────────
+ C-This is the last iteration and He 2 Ly(a) optical depth changed by     52% (was 1.95e+05). Try another iteration.
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Photoionization of upper levels of [O III] reached 11.7% of the total O++ photo rate.
+  !The largest plasma frequency was 5.33e-06 Ryd = 1.71e+04 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 3.04e+00 s.
+  !The radiation pressure jumped by 303% at zone 3, from 0.00e+00 to 8.19e-06 to 4.97e-05
+
+
+hden = 13.000, phi = 21.500
+───────────────────────────
+  !The high electron density makes the Nussbaumer/Storey CNO recombination predictions unreliable.
+  !Suprathermal collisional ionization of H reached 71.67% of the local H ionization rate.
+  !Charge transfer ionization of H reached 118796.4% of the local H ionization rate.
+  !Photoionization of upper level of Mg II 2798 reached 99.5% of the total Mg+ photo rate.
+  !Photoionization of upper levels of [O I] reached 11.0% of the total O destruction rate.
+  !The largest plasma frequency was 9.50e-06 Ryd = 9.59e+03 micron  The continuum is set to 0 below this.
+  !AGE: Cloud age was not set.  Longest timescale was 1.36e+00 s.
+  !The excitation temp of Lya exceeded the electron temp, largest value was 2.44e+04K (gas temp there was 9.83e+03K, zone 174)
+  !G-bar cooling lines reached 10.20% of the local cooling.  Line=Mn 2 2589A
+  !The radiation pressure jumped by 265% at zone 3, from 9.22e-07 to 5.92e-06 to 3.05e-05
+  !The electron density varied by 10.0% between two zones
+
+
