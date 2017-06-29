@@ -1,0 +1,98 @@
+#Last-modified: 01 May 2011 12:45:14 PM
+SHELL = /bin/sh
+
+#****************************************************
+# Compiler Options
+F90     = ifort
+LIBDIR  = /usr/lib/atlas-base/  # for my Debian-laptop
+#LIBDIR  = /usr/local/atlas/lib/ # for arjuna
+OS     :=$(shell uname -s)
+NPROCS :=1
+
+ifeq ($(OS),Linux)
+	NPROCS:=$(shell grep -c ^processor /proc/cpuinfo)
+endif
+ifeq ($(OS),Darwin) # Assume Mac Os X
+	NPROCS:=$(shell system_profiler | awk '/Number Of CPUs/{print $4}{next;}')
+endif
+
+ifeq ($(NPROCS), 1)
+	FLAG = -L$(LIBDIR) -llapack -lf77blas -lcblas -latlas
+#    FLAG  = -llapack -lblas 
+else
+	FLAG = -L$(LIBDIR) -llapack -lpthread -lptf77blas -lptcblas -latlas
+endif
+#****************************************************
+
+#****************************************************
+# Directories
+prefix = $(HOME)
+OBJDIR = $(CURDIR)/../trash-dev
+BINDIR = $(prefix)/bin
+VPATH  = $(OBJDIR)
+#****************************************************
+
+
+#****************************************************
+# Mail Target
+$(BINDIR)/spear : main.o description.o readfiles.o sort_data.o func.o fastlikelin.o getcmatrix.o jd2lag.o copy_modelpara.o run_amoeba.o amoeba.o cholu.o highres.o mcmc.o 
+	$(F90) $(OBJDIR)/*.o  $(FLAG) -o $@
+	ln -sf $(CURDIR)/scripts/SinWrapper.pl $(BINDIR)/SinWrapper.pl
+	ln -sf $(CURDIR)/scripts/TopWrapper.pl $(BINDIR)/TopWrapper.pl
+	ln -sf $(CURDIR)/scripts/GenLC.dat  $(BINDIR)/GenLC.pl
+	ln -sf $(CURDIR)/scripts/FindCL.pl  $(BINDIR)/FindCL.pl
+#****************************************************
+
+#****************************************************
+# OBJECT Compilation
+$(OBJDIR)/amoeba.o : amoeba.f90
+	$(F90) $(FLAG) -c $< -o $@
+
+$(OBJDIR)/cholu.o : cholu.f90
+	$(F90) $(FLAG) -c $< -o $@
+
+$(OBJDIR)/sort_data.o : sort_data.f
+	$(F90) $(FLAG) -c $< -o $@
+
+$(OBJDIR)/description.o : description.f90
+	$(F90) $(FLAG) -c $< -o $@
+
+$(OBJDIR)/readfiles.o : readfiles.f90 description.o
+	$(F90) $(FLAG) -c readfiles.f90  -o $@
+
+$(OBJDIR)/copy_modelpara.o : copy_modelpara.f90 description.o
+	$(F90) $(FLAG) -c copy_modelpara.f90 -o $@
+
+$(OBJDIR)/jd2lag.o : jd2lag.f90 description.o
+	$(F90) $(FLAG) -c jd2lag.f90 -o $@
+
+$(OBJDIR)/getcmatrix.o : getcmatrix.f90 description.o jd2lag.o
+	$(F90) $(FLAG) -c getcmatrix.f90 -o $@
+
+$(OBJDIR)/highres.o :: highres.f90  description.o getcmatrix.o cholu.o jd2lag.o
+	$(F90) $(FLAG) -c highres.f90 -o $@
+
+$(OBJDIR)/fastlikelin.o : fastlikelin.f90 description.o getcmatrix.o cholu.o
+	$(F90) $(FLAG) -c fastlikelin.f90 -o $@
+
+$(OBJDIR)/func.o : func.f90 description.o copy_modelpara.o fastlikelin.o
+	$(F90) $(FLAG) -c func.f90 -o $@
+
+$(OBJDIR)/run_amoeba.o : run_amoeba.f90 description.o func.o amoeba.o
+	$(F90) $(FLAG) -c run_amoeba.f90 -o $@
+
+$(OBJDIR)/mcmc.o : mcmc.f90 description.o func.o
+	$(F90) $(FLAG) -c mcmc.f90 -o $@
+
+$(OBJDIR)/main.o : main.f90 description.o readfiles.o run_amoeba.o copy_modelpara.o highres.o mcmc.o
+	$(F90) $(FLAG) -c main.f90 -o $@
+#****************************************************
+
+#****************************************************
+# CLEAN
+clean:
+	rm -rf $(OBJDIR)/*.o $(CURDIR)/*mod  $(BINDIR)/spear $(BINDIR)/SinWrapper.pl  $(BINDIR)/TopWrapper.pl $(BINDIR)/PeakMCMC.pl $(BINDIR)/gen_lcdat.pl $(BINDIR)/FindCL.pl
+#****************************************************
+
+
+

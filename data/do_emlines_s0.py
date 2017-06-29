@@ -27,7 +27,7 @@ for line in linelist:
         lineT_aniso_resp = []
         for nH in nHlist:
             print('\nNcol:',Ncol,'nH:',nH)
-            L,cent,respcent,cent_tau_aniso,cent_tau_resp_aniso,rfL,rfR = do_line(
+            L,cent,respcent,cent_tau_aniso,cent_tau_resp_aniso,rfL,rfR,wt_resp,wt_inwd = do_line(
                 Ncol=Ncol,line=line,nH=nH,r_in=r_in)
             lineL.append(L)
             lineR.append(cent)

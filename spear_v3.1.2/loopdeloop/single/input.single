@@ -1,0 +1,8 @@
+lc_loopdeloop_con.dat                                                   
+2                                        # single mode                                                           
+0.794328234724282 25.1188643150958       # \hat{\sigma} \tau                               
+1 1                                      # vary everything                               
+1                                        # run ameoba                              
+1                                        # run prediction                               
+1                                        # run MCMC
+mcmc_con.dat

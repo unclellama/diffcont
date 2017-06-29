@@ -1,0 +1,240 @@
+                      README File for the Code SPEAR
+                 ===========================================
+
+Ying Zu , C.S. Kochanek and Bradley. M. Peterson
+
+                      Last update: 01 May 2011 (YZ)
+                      
+Disclaimer: This code is distributed freely to the community. The user accepts
+sole responsibility for the results produced by the code.
+
+1. File structure
+
+The package comes with quite a few files and the code is written entirely in 
+Fortran 90.
+
+1.1   The README file -- you should read this first.
+
+1.2   Makefile -- this file is used to compile the code. You may want to
+      tailor this to your need.
+
+1.3   main.f90 -- this is the main code. All other auxiliary subroutines or
+      functions are called by this file.
+
+1.4   func.f90 -- this is the wrapper code called by main.f90 to calculate the 
+      likelihood via using fastlikelin.f90
+
+1.5   fastlikelin.f90 -- this is the code doing all the dirty work of inverting
+      and multiplying matrices to return the likelihood to func.f90. All the 
+      matrix operations are explained in the comments, but please read the
+      "methodology" section of our paper if you prefer a more human-readable
+      format.
+
+1.6   getcmatrix.f90 -- this is the code to calculate the covariance matrix.
+      Again, please read the Appendix of our paper for the beautifully typeset 
+      formulae.
+
+1.7   highres.f90 -- this is the code to predict the light curve values for
+      unmeasured time epochs. You can produce the "error snake" of light
+      curves by turning on "prediction" in the input file.
+
+1.8   amoeba.f90 -- this is the code to do local optimiazation using 
+      ameoba algorithm. Code from <Numerical Recipe>.
+
+1.9   cholu.f90 -- this is the code to do matrix operations using LAPACK
+      routines.
+
+1.10  copy_modelpara.f90 -- this is the code to transform parameters into
+      physically meaningful variables.
+
+1.11  readfiles.f90 -- this is the code to prepare calculations for
+      the main calculation.
+
+1.12  mcmc.f90 -- this is the code to preform MCMC calculation.
+
+1.13  description.f90 -- this is the code to construct modules for storing global
+      parameters.
+
+1.14  jd2lag.f90 -- this is the code to embed the luminosity dependence into 
+      lag estimation. 
+
+1.15  input -- this is an example of input file
+
+1.16  lc.dat -- this is an example of the light curve data, comprised of a
+      continuum and a line light curve.
+
+1.17  stats.dat --  this is the file to provide the priors on tau and sigma
+      to the main program when fitting lc.dat
+
+1.18  loopdeloop/ -- this is the directory providing a full example for 
+      you to play with, under the instruction of the online HOWTO at:
+
+      http://www.astronomy.ohio-state.edu/~yingzu/spearhowto.html
+
+1.19  scripts/ -- this is the directory providing some auxiliary scripts 
+      written in PERL. Their functions are described in the above HOWTO 
+      webpage.
+
+
+
+
+3. How to run the code
+
+3.1 Requirements
+
+SPEAR requires LAPACK and BLAS to compile, for multithreading, you may want
+to install ATLAS as well. For more information about LAPACK/BLAS, please check
+
+http://www.netlib.org/lapack/faq.html
+
+for ATLAS, please check
+
+http://math-atlas.sourceforge.net/faq.html
+
+To start, you can simply install LAPACK/BLAS without multithreading, and the speed
+is fast enough for normal fitting procedures.
+
+Typing "make" should make the code, but please make sure you modify the
+"Makefile" if you have compilers other than Intel Fortran Compiler or you have
+installed LAPACK, BLAS or ATLAS to a user-specified directory.
+
+3.2 Procedure
+
+Once you generate the executable file "spear", you can just do 
+
+----------------
+"spear < input"
+----------------
+
+in your favorate terminal to test the code with the example provided in the
+same directory.
+
+
+The organization of the code is very straightforward, as we described in 
+Section 4 of our paper. For sucessfully determining the best-fit lag, the 
+following steps are recommended:
+
+(1) You have to use the "SINGLE" convmode to model the continuum light curve
+alone and run a MCMC to determine the prior on tau and sigma to be stored in
+"stats.dat". The format of "stats.dat" can be found in Sec 3.2 of this README
+file.
+
+(2) Depending on how many line light curves you have and what transfer
+function you want, you switch to another convmode (e.g., one line with a
+tophat transfer function should go for "TOPHAT", and two lines with tophats
+should go for "DOUBLETOPHAT") and fit the joint model of line and continuum
+light curves on a 2-d grid of lag and tophat width. The range of the lag grid
+should cover the entire range of possible lags, e.g., from 0 to half of the
+light curve baseline, while the range of the width grid is usually no more
+than 10 days.
+
+(3) Based on the lag likelihood function you obtained in step (2), you will
+have a rough idea of what the lag is from locations of the most
+significant peaks. While the most prominent peak is always the best choice,
+you should still examine the best-fit light curves at each possible lag and
+consider whether it is false due to either seasonal gap aliasing or
+unphysical transfer function widths, etc.
+
+(4) If you have two or more similarly significant peaks and you cannot
+decide which one is the true lag, you might want to resort to adding another
+line light curve ("DOUBLETOPHAT" mode) to try to break the degeneracy, or 
+simply give it up because the light curves you are using may be not good 
+enough.
+
+5) After pinning down the best-fit lag, you can run the MCMC about the
+best-fit lag to get its statistical confidence limits and you are done!
+
+3.3 The input
+
+(1) input file -- please refer to the example input file for the format, and
+if you feed the input by STDIN, the program will prompt you whenever an input
+is needed. Generally it asks for the light curve data file, the convmode, the
+initial parameters, which of them are to be fixed (0) or varied (1) in the
+fit, whether you want the outputs of simulated light curves ("error snakes"),
+whether you want to do an MCMC run, and if so, where do you want to save the
+MCMC output.
+
+(2) stats.dat -- you should generate a stats.dat containing the prior on tau
+and sigma from modeling the continuum light curve using "SINGLE" convmode
+(see discussion of prior in our paper). It has only one line with 6 numbers
+as follows,
+
+----------------
+Log10(Tau) Log10(Tau_lo) Log10(Tau_hi) Log10(Sig) Log10(Sig_lo) Log10(Sig_hi)
+----------------
+
+Log10 means the logarithm to the base 10. Tau and Sig are the center values
+of tau and sigma, repectively. subscripts "lo" and "hi" indicate the lowest
+and highest values enclosing the 68.3% of the distribution.
+
+(3) light curve data file -- You have to prepare a specific light curve
+data file for each fit, but the general rule is as follows,
+
+If you have 1 continuum light curve and N (N>=0) line light curves, the first
+line of the data file is a single number 1+N. The second line is the number of
+data points in the first light curve (continuum light curve by default) n_1,
+and all the consecutive n_1 lines should give the n_1 data points of the
+continuum light curve in 3-column format: "Julian_Date Flux Flux_Error". The
+line after the end of the first light curve data points again gives the number
+of data points in the second light curve (first line light curve) n_2 and the
+rest n_2 lines the 3-column data points of the second light curve. This
+combination of n_i plus 3-column data points for each light curve goes on
+until the Nth line light curve.  So we have a light curve data file like,
+
+example light curve data file (texts ater # are comments, not part of the file)
+----------------
+2                           # number of light curves, continuum first
+5                           # number of data points in the first light curve
+    8461.5  22.48    0.36   # each light curve line is a date, a flux, a flux
+    8490.6  20.30    0.30   # uncertainty. 
+    8520.3  19.59    0.56    
+    8545.8  20.11    0.15    
+    8769.6  21.12    1.20    
+4                           # number of data points in the second light curve
+    8545.8   9.82    0.23    
+    8890.4  11.86    0.58    
+    8949.4  10.55    0.87    
+    8988.6  11.06    0.27    
+----------------
+
+3.4 The output
+
+The format of the output files can be found by checking the codes.  All the
+output file names can be easily modified in the code, but the default ones
+are,
+
+(1) best3.new -- the txt file contains the result from Ameoba fitting: best
+likelihood, best-fit parameters etc. All output values are labeled.
+
+(2) fort.15 -- prediction of all light curves at all time epochs which have
+measurements, i.e., unmeasured line (continuum) flux at a time where we only
+have continuum (line) flux.
+
+(3) fort.13 -- prediction of a continuum light curve at 10 times the sampling
+rate of the observational data.
+
+(4) fort.12,11,10... -- predictions of the 1st, 2nd, 3rd... line light curves
+at 10 times the sampling rate of the observational data.
+
+(5) fort.25 -- log file for the MCMC run. It contains the MCMC output during
+the burn-in period, and thus are useful in testing convergence and mixing.
+
+(6) mcmcfile -- Output from MCMC. This file has to be declared in the input
+file.
+
+
+3.5  Automated scripts
+
+The perl scripts in scripts/ directory can help you to automate the above
+procedures. "SinWrapper.pl" can be applied to "single" mode, i.e., continuum 
+light curves for estimating variability parameters \hat{\sigma} and \tau; 
+"TopWrapper.pl" can be applied to continuum+line light curves to derive
+the lags. Please type "SinWrapper.pl -h" and "TopWrapper.pl -h" for available
+options or directly go to the online HOWTO page,
+
+http://www.astronomy.ohio-state.edu/~yingzu/spearhowto.html 
+
+
+4. Need Help?
+
+Feel free to ask us if you run into trouble or have questions. 

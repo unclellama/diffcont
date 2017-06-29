@@ -1,0 +1,87 @@
+#!/usr/bin/perl
+use warnings;
+
+# This script is to concatenate several light curves together to get the input for spear
+# The raw data format is:
+# JD_TIME MAG ERROR_MAG
+#
+# The required format is:
+# NUM_LINES
+# NUM_POINTS OF FIRST LINE (CONT.)
+# JD_TIME MAG ERROR_MAG
+# ......
+# NUM_POINTS OF SECOND LINE (1ST EM.)
+# JD_TIME MAG ERROR_MAG
+# ......
+# NUM_POINTS OF THIRD LINE (2ND EM.)
+# JD_TIME MAG ERROR_MAG
+# ......
+
+# @Author
+# Ying Zu
+#
+# @Changelog
+# Jul-23-2010: Finish the implementation of generate lightcurve.dat 
+# file according to command-line arguments.
+#
+# @Example
+# if you have "loopdeloop_con.dat" and "loopdeloop_hb.dat" in your current directory, you can
+# generate "lc_loopdeloop_con_hb.dat" via the following command:
+# gen_lcdat.pl loopdeloop 2 con hb
+
+$format = " %9.6f  %5.3f   %5.3f\n";
+
+if (!defined($ARGV[2])) {
+    die "USAGE: gen_lc.pl OBJECT NCURVE NAME_LINE01 [NAME_LINE02] ...\n";
+    }
+    else{
+    $object = $ARGV[0];
+    $ncurve = $ARGV[1];
+    $lc_file = "lc_".$object;
+    for ($i=1;$i<=$ncurve;$i++){
+        if (!defined($ARGV[$i+1])){
+            die "ERROR: LINE NAMELIST LESS THAN NCURVE!\n";
+        }
+        $name_line[$i-1] = $ARGV[$i+1];
+        $lc_file.="_"."$name_line[$i-1]";
+    }
+}
+
+$lc_file = $lc_file.".dat";
+print "******************************\n";
+print "Object: $object \n", "\# of Lines: $ncurve \n", "Names: @name_line\n","OUTPUT: $lc_file\n";
+print "******************************\n";
+#if(-e $lc_file){
+#    die "ERROR: FILE $lc_file EXISTS!\n";
+#}
+
+system('echo ' . $ncurve . ' > '. $lc_file );
+
+for($i=1;$i<=$ncurve;$i++){
+    open(OUTFILE,">temp.dat");
+    $line_file = $object."_".$name_line[$i-1].".dat";
+    print "Opening: $line_file\n";
+    if(-e $line_file){
+        $_ = qx(wc -l $line_file);
+    }else{
+        die "ERROR: FILE $line_file DOESN\'T EXIST!\n";
+    }
+    s/\s+(\w*.\w*)\s*//;
+    $nline = $_;
+    system('echo ' . $nline . ' >> ' . $lc_file );
+    print "number of data points in cont: $nline\n";
+    open(INFILE," < $line_file ");
+    while(<INFILE>) {
+        chomp($line = $_);
+        @entries = split(' ',$line);
+#       $entries[0] -= 2440000;
+#       $entries[0] -= 47000;
+        printf OUTFILE $format, @entries;
+    }
+    close(INFILE);
+    system('sort -n temp.dat >>  ' . $lc_file);
+    close(OUTFILE);
+    system('rm temp.dat');
+}
+
+print "DONE.\n";

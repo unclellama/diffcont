@@ -1,0 +1,8 @@
+lc_loopdeloop_con_ha.dat
+1                                        # tophat mode                                                           
+0.838097 34.480781 15 0.607393 1.001     # directly from "*.peaks.grid"                               
+1 1 1 1 1                                # vary all 5 parameters                             
+0 do amoeba                              # no ameoba
+0 predict light curves                   # no prediction                             
+1 do mcmc                                # run MCMC
+mcmc_ha.dat

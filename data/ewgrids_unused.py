@@ -9,6 +9,120 @@ from ewgrids_plot import *
 
 lightday = 2.59e15
 
+def do_continuum_allnH(Ncol='23',interp='raw',minwl=1000.,maxwl=7000.):
+    nHlist = [8.,9.,10.,11.,12.,13.]
+    diffcont_nH = []
+    cent_nH = []
+    respcent_nH = []
+    ratio_nH = []
+    for nH in nHlist:
+        contwl,diffcont,cent,respcent,mpcont,ratiompcont = do_continuum(
+            nH=nH,Ncol='23',interp='raw',minwl=minwl,maxwl=maxwl)
+        diffcont_nH.append(diffcont)
+        cent_nH.append(cent)
+        respcent_nH.append(respcent)
+        ratio_nH.append(ratiompcont)
+    p_wl_multi(contwl,ratio_nH,title='contratio_allnh',log='no',
+        ylabel=r'$\nu L_{\nu}(\mathrm{diff})/\nu L_{\nu}(\mathrm{nuc})$',
+        legends=[r'$n_H=$'+str(n) for n in nHlist],label='')
+
+
+# =======================================================================================
+# dependencies on r_in, r_out
+# =======================================================================================
+
+def r_in_dependency(n='23',interp='raw',line='lya',cont_wl=1215,method='trapz',
+                    r_in=np.arange(0.2,200.,0.1),Hden=10):
+    """ integrate luminosity of a line for a range of r_in values.
+    input a range of r_in in lightdays, along with line id and densities.
+    returns integrated luminosity Lrin (erg s-1) as a function of r_in (log cm)."""
+    r_in = [m.log10(r*lightday) for r in r_in]
+    r_out = m.log10(dust_radius())
+    # find the input file for this line
+    fortfolder = gen_foldername(n,interp)
+    range_Phi,slice,rel_emissivities = match_and_slice(fortfolder,
+                                                       line,Hden=Hden,cont_wl=1215.)
+    # multiply relative emissivities with cont flux
+    incident_nu_F_nu = get_incident_nu_Fnu(range_Phi)
+    emissivities = [incident_nu_F_nu[i]*rel_emissivities[i]/1215
+                    for i in range(len(rel_emissivities))]
+    # convert phi to radius
+    logr = Phi_to_radius(range_Phi)
+    # reverse so that radius goes [small...large], for integral.
+    logr = logr[::-1]
+    emissivities = emissivities[::-1]
+    Lrin = []
+    for r in r_in:
+        # get scaling of A_c*n_c by assuming full coverage
+        Ac_scaling = get_Ac_scaling(logr,s=0,r_in=r,r_out=r_out)
+        # integrate over the line out to dust radius
+        Lmax,C,centroid = integrate_line(logr,emissivities,s=0,r_in=r,r_out=r_out,
+                            method=method,verbose='yes',Ac_scaling=Ac_scaling)
+        Lrin.append(Lmax)
+    plotfolder = 'n_'+n+'_'+interp+'_plots'
+    plot_rin_lumin(r_in,Lrin,n=n,line=line,label='test',plotfolder=plotfolder,Hden=Hden)
+    return [r_in,Lrin]
+
+def r_out_dependency(n='23',interp='raw',line='lya',cont_wl=1215,method='trapz',
+                    r_in=1,r_out=np.arange(5,365.,1),Hden=10):
+    """ integrate luminosity of a line for a range of r_out values.
+    input a range of r_out in lightdays, along with line id and densities.
+    returns integrated luminosity Lrout (erg s-1) as a function of r_out (log cm)."""
+    r_in = m.log10(r_in*lightday)
+    r_out = [m.log10(r*lightday) for r in r_out]
+    # find the input file for this line
+    fortfolder = gen_foldername(n,interp)
+    range_Phi,slice,rel_emissivities = match_and_slice(fortfolder,
+                                                       line,Hden=Hden,cont_wl=1215.)
+    # multiply relative emissivities with cont flux
+    incident_nu_F_nu = get_incident_nu_Fnu(range_Phi)
+    emissivities = [incident_nu_F_nu[i]*rel_emissivities[i]/1215
+                    for i in range(len(rel_emissivities))]
+    # convert phi to radius
+    logr = Phi_to_radius(range_Phi)
+    # reverse so that radius goes [small...large], for integral.
+    logr = logr[::-1]
+    emissivities = emissivities[::-1]
+    Lrout = []
+    for r in r_out:
+        # get scaling of A_c*n_c by assuming full coverage
+        Ac_scaling = get_Ac_scaling(logr,s=0,r_in=r_in,r_out=r)
+        # integrate over the line out to dust radius
+        Lmax,C = integrate_line(logr,emissivities,s=0,r_in=r_in,r_out=r,
+                            method=method,verbose='yes',Ac_scaling=Ac_scaling)
+        Lrout.append(Lmax)
+    plotfolder = 'n_'+n+'_'+interp+'_plots'
+    plot_rout_lumin(r_out,Lrout,n=n,line=line,label='test',plotfolder=plotfolder,Hden=Hden)
+    return [r_out,Lrout]
+
+def r_in_dependency_allnH(n='23',interp='raw',line='lya',cont_wl=1215,method='trapz'):
+    """ runs r_in_dependency() for a range of nH, and plots results."""
+    nHlist = [8,9,10,11,12,13,14]
+    r_in_nH = []
+    Lrin_nH = []
+    for nH in nHlist:
+        r_in,Lrin = r_in_dependency(n=n,interp='raw',line=line,cont_wl=1215,
+                        method='trapz',r_in=np.arange(0.2,200.,0.1),Hden=nH)
+        r_in_nH.append(r_in)
+        Lrin_nH.append(Lrin)
+    plotfolder = 'n_'+n+'_'+interp+'_plots'
+    plot_rin_lumin_allnH(r_in_nH,Lrin_nH,nHlist=nHlist,n=n,line=line,label=line,
+                         obslumin=(observed_lumin(line))[0])
+
+def r_out_dependency_allnH(n='23',interp='raw',line='lya',cont_wl=1215,method='trapz'):
+    """ runs r_out_dependency() for a grid of nH, and plots results."""
+    nHlist = [8,9,10,11,12,13,14]
+    r_out_nH = []
+    Lrout_nH = []
+    for nH in nHlist:
+        r_out,Lrout = r_out_dependency(n=n,interp='raw',line=line,cont_wl=1215,
+                        method='trapz',Hden=nH)
+        r_out_nH.append(r_out)
+        Lrout_nH.append(Lrout)
+    plotfolder = 'n_'+n+'_'+interp+'_plots'
+    plot_rout_lumin_allnH(r_out_nH,Lrout_nH,nHlist=nHlist,n=n,line=line,label=line,
+                         obslumin=(observed_lumin(line))[0])
+
 def intline_tau_old(rr,em,s=0,f_factor=['none'],resp=['none'],Ac_scaling=1.,
                     theta_bins=500,
                 do_plots='no',label='a label'):

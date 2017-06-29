@@ -1,0 +1,7 @@
+lc.dat
+1                                        # tophat mode                                                           
+1.0 35.0 15.0 0.60 1.00                  # initial parameters: \hat{\sigma} \tau lag scale width
+1 1 1 1 1                                # vary all 5 parameters                             
+0 do amoeba                              # no ameoba
+0 predict light curves                   # no prediction                             
+0 do mcmc                                # no MCMC

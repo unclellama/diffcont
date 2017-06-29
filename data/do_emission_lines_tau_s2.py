@@ -11,7 +11,7 @@ L_lya,eL_lya = observed_lumin('lya')
 L_civ,eL_civ = observed_lumin('civ')
 L_hbeta,eL_hbeta = observed_lumin('hbeta')
 L_he4686,eL_he4686 = observed_lumin('he4686')
-start_nHlist = [9.5,9.75,10,10.25,10.5,10.75,11]
+start_nHlist = [9.5,9.75,10,10.25,10.5,10.75,11,11.25]
 start_logPhi = 19.5
 #start_nHlist = [9.5,10]
 

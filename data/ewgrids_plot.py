@@ -2,6 +2,8 @@
 import math as m
 import matplotlib.pyplot as plt
 from matplotlib import ticker
+import numpy as np
+from itertools import cycle
 
 plot_fontsize = 20
 plot_ticksize = 19
@@ -34,11 +36,12 @@ def p_EWcontours_overlay(range_Hden,range_Phi,energy_grid,lognH_cut,logPhi_cut,
                       locator=ticker.LogLocator())
     plt.colorbar(CS)
     plt.plot(lognH_cut,logPhi_cut,color='black')
-    plt.xlabel('$\log[$n_H / 1 cm$^{-3}]$')
-    plt.ylabel(r'$\log[\Phi$(H) / 1 cm$^{-2}$ s$^{-1}]$',rotation=90)
+    #plt.xlabel(r'$\log[$n_H / 1 cm$^{-3}]$')
+    #plt.ylabel(r'$\log[\Phi$(H) / 1 cm$^{-2}$ s$^{-1}]$',rotation=90)
+    Ncol_cut_descending = ["{0:.2f}".format(m.log10(N)) if (N > 21.00 & N<24.25) else '' for
+                           N in Ncol_cut_descending]
     for i in range(len(lognH_cut)):
-        plt.text(lognH_cut[i],logPhi_cut[i],
-                 "{0:.2f}".format(m.log10(Ncol_cut_descending[i])))
+        plt.text(lognH_cut[i],logPhi_cut[i],Ncol_cut_descending[i])
     plt.savefig('EWcontours_overlay.eps', format='eps')
     plt.close()
 
@@ -53,9 +56,10 @@ def p_EWcontours_radius_overlay(range_Hden,range_radius,energy_grid,lognH_cut,lo
     plt.colorbar(CS)
     plt.xlabel('$\log[$n_H / 1 cm$^{-3}]$')
     plt.ylabel(r'$\log[R / 1 cm]$',rotation=90)
+    Ncol_cut_descending = ["{0:.2f}".format(m.log10(N)) if ((m.log10(N) > 21.00) & (m.log10(N) < 24.25))
+                            else '' for N in Ncol_cut_descending]
     for i in range(len(lognH_cut)):
-        plt.text(lognH_cut[i],logr_cut[i],
-                 "{0:.2f}".format(m.log10(Ncol_cut_descending[i])))
+        plt.text(lognH_cut[i],logr_cut[i],Ncol_cut_descending[i])
     plt.axhline(y=m.log10(r_in),color='black')
     plt.axhline(y=m.log10(14.8*2.59e15),color='pink')
     plt.axhline(y=m.log10(r_out),color='black')
@@ -64,20 +68,23 @@ def p_EWcontours_radius_overlay(range_Hden,range_radius,energy_grid,lognH_cut,lo
     
 def p_ld(r_ld,y,title='something vs r(lightdays)',vlines='none',
          log='yes',axes='none',hlines='none',label='a label',legends=['1','2','3','4'],
-         xtitle='$R$ (lightdays)',ytitle='y',xlog='no'):
+         xtitle='$R$ (lightdays)',ytitle='y',xlog='no',label_xy=[0.3,0.3]):
     """plot something vs radius in lightdays"""
     #sns.set_palette(sns.color_palette("hls", 20))
+    markersymbols = ['b','r--','k:','m-.','co','gv']
+    markers = cycle(markersymbols)
     l = iter(legends)
     try:
         for yi in y:
-            plt.plot(r_ld,yi,label=next(l))
+            plt.plot(r_ld,yi,next(markers),label=next(l),lw=2.5)
         if log=='yes':
             plt.yscale('log')
         if xlog=='yes':
             plt.xscale('log')
         plt.legend(fontsize=plot_fontsize-5,loc='best')
     except:
-        plt.plot(r_ld,y)
+        markers = cycle(markersymbols)
+        plt.plot(r_ld,y,next(markers),lw=2.5)
         if log=='yes':
             plt.yscale('log')
         if xlog=='yes':
@@ -93,7 +100,7 @@ def p_ld(r_ld,y,title='something vs r(lightdays)',vlines='none',
         plt.axis(axes)
     plt.xlabel(xtitle,fontsize=plot_fontsize)
     plt.ylabel(ytitle,rotation=90,fontsize=plot_fontsize)
-    plt.figtext(0.3,0.3,label,backgroundcolor='white',fontsize=plot_fontsize-5)
+    plt.figtext(label_xy[0],label_xy[1],label,backgroundcolor='white',fontsize=plot_fontsize)
     plt.gca().tick_params(pad=xtick_padding,width=tickwidth,length=2.5*tickwidth)
     plt.tick_params(axis='both', which='major', labelsize=plot_ticksize)
     plt.tick_params(axis='both', which='major', labelsize=plot_ticksize)
@@ -101,39 +108,48 @@ def p_ld(r_ld,y,title='something vs r(lightdays)',vlines='none',
     plt.savefig(title+'.eps')
     plt.close()
 
-def p_wl(wl,y,ylabel='y',title='something vs wavelength',xmax=7000,log='yes',
-         legends='none',label='',range='none'):
-    plt.plot(wl,y)
+def p_wl(wl,y,ylabel='y',title='something vs wavelength',xmax=7000,log='yes',xlog='no',
+         legends='none',label='',range='none',axes='none'):
+    plt.plot(wl,y,lw=2.5)
     if log == 'yes':
         plt.yscale('log')
+    if xlog == 'yes':
+        plt.xscale('log')
     #plt.title(title)
-    plt.xlabel(r'Wavelength [Ang]',fontsize=plot_fontsize)
+    plt.xlabel(r'Wavelength [\AA]',fontsize=plot_fontsize)
     plt.ylabel(ylabel,rotation=90,fontsize=plot_fontsize)
-    plt.figtext(0.8,0.2,label,backgroundcolor='white')
+    if xlog == 'no':
+        plt.xticks(np.arange(2000, 12000, 2000))
+    plt.figtext(0.5,0.2,label,backgroundcolor='white',fontsize=plot_fontsize-2)
     if range != 'none':
         plt.axis(range)
     plt.gca().tick_params(pad=xtick_padding,width=tickwidth,length=2.5*tickwidth)
-    plt.tick_params(axis='both', which='major', labelsize=plot_ticksize-5)
-    plt.tick_params(axis='both', which='major', labelsize=plot_ticksize-5)
+    plt.tick_params(axis='both', which='major', labelsize=plot_ticksize)
+    plt.tick_params(axis='both', which='major', labelsize=plot_ticksize)
+    if axes != 'none':
+        plt.axis(axes)
     plt.tight_layout()
     plt.savefig(title+'.eps')
     plt.close()
 
 def p_wl_multi(wl,yarrays,ylabel='y',title='something vs wavelength',xmax=7000,log='yes',
          legends='none',axes='none',label='label'):
+    markersymbols = ['b','r--','k:','m-.','g','cv']
+    markers = cycle(markersymbols)
     for i in range(len(yarrays)):
-        plt.plot(wl,yarrays[i],label=legends[i])
+        plt.plot(wl,yarrays[i],next(markers),label=legends[i],lw=2.5)
     if log == 'yes':
         plt.yscale('log')
-    plt.xlabel(r'Wavelength [Ang]',fontsize=plot_fontsize)
+    plt.xlabel(r'Wavelength [\AA]',fontsize=plot_fontsize)
     plt.ylabel(ylabel,rotation=90,fontsize=plot_fontsize)
-    plt.figtext(0.8,0.2,label,backgroundcolor='white')
+    plt.figtext(0.5,0.2,label,backgroundcolor='white',fontsize=plot_fontsize-2)
     plt.legend(fontsize=plot_fontsize-5)
+    plt.xticks(np.arange(2000, 12000, 2000))
     plt.gca().tick_params(pad=xtick_padding,width=tickwidth,length=2.5*tickwidth)
-    plt.tick_params(axis='both', which='major', labelsize=plot_ticksize-5)
-    plt.tick_params(axis='both', which='major', labelsize=plot_ticksize-5)
+    plt.tick_params(axis='both', which='major', labelsize=plot_ticksize)
+    plt.tick_params(axis='both', which='major', labelsize=plot_ticksize)
     if axes != 'none':
-        plt.axis(range)
+        plt.axis(axes)
     plt.tight_layout()
     plt.savefig(title+'.eps')
     plt.close()

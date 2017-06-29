@@ -8,14 +8,13 @@ r_in = 1. # in lightdays
 from ewgrids import *
 import json
 
-start_nHlist = [9.5,9.75,10,10.25,10.5,10.75,11]
+start_nHlist = [9.5,9.75,10,10.25,10.5,10.75,11,11.25,11.5]
 start_logPhi = 20
-start_logNcol = 22
-#linelist = ['lya','civ','halpha','hbeta','he4686','he1640','mgii']
+start_logNcol = 22.75
+#linelist = ['lya']
+linelist = ['lya','civ','halpha','hbeta','he4686']#,'mgii']
 
-linelist = ['lya']
-
-logU_list = [start_logPhi-nH-m.log10(c_cms) for nH in start_nHlist]
+logU_list = ["{0:.2f}".format(start_logPhi-nH-m.log10(c_cms)) for nH in start_nHlist]
 
 for line in linelist:
     linedata = {'line':line,'linename':typeline(line),'U_arr':logU_list}
@@ -27,7 +26,7 @@ for line in linelist:
         lineT_aniso_resp = []
         logU = start_logPhi-nH-m.log10(c_cms)
         print('start_nH:',nH,'logU:',logU)
-        L,cent,respcent,cent_tau_aniso,cent_tau_resp_aniso,rfL,rfR = do_line_s2(
+        L,cent,respcent,cent_tau_aniso,cent_tau_resp_aniso,rfL,rfR,j1,j2 = do_line_s2(
             starting_lognH=nH,starting_logPhi=start_logPhi,line=line,
             starting_logNcol_float=start_logNcol)
         lineL.append(L)
